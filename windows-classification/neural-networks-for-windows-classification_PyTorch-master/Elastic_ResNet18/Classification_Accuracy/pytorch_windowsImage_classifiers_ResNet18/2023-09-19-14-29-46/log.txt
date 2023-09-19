@@ -1,0 +1,126 @@
+[19.09.2023 14:29:46] program start time: 2023-09-19-14-29-46
+
+[19.09.2023 14:29:46] successfully create model: ResNet18
+[19.09.2023 14:29:46] loaded ImageNet pretrained weights
+[19.09.2023 14:29:46] successfully create model: Elastic_ResNet18
+[19.09.2023 14:29:46] Namespace(batch_size=4, data='windowsImage', dropout_rate=0.2, epochs=10, filename='D:\\projects\\neural-networks-for-windows-classification_PyTorch-master\\neural-networks-for-windows-classification_PyTorch-master\\Elastic_ResNet18\\Classification_Accuracy\\pytorch_windowsImage_classifiers_ResNet18\\2023-09-19-14-29-46\\log.txt', gpu='0', learning_rate=0.01, manual_seed=0, model='Elastic_ResNet18', model_name='pytorch_windowsImage_classifiers_ResNet18', momentum=0.9, num_classes=5, pretrain_learning_rate=0.001, pretrained_weight=1, save_model=False, savedir='D:\\projects\\neural-networks-for-windows-classification_PyTorch-master\\neural-networks-for-windows-classification_PyTorch-master\\Elastic_ResNet18\\Classification_Accuracy\\pytorch_windowsImage_classifiers_ResNet18\\2023-09-19-14-29-46', target_size=(224, 224, 3), weight_decay=0.0001)
+[19.09.2023 14:29:48] ==> Full training    
+
+[19.09.2023 14:29:48] ==================================== epoch 0 ==============================
+[19.09.2023 14:29:48] ==========> train 
+[19.09.2023 14:29:51] 
+train error: 51.76470588235294, 
+loss: 1.5474962458891026, 
+learning rate 100
+[19.09.2023 14:29:51] ==> val 
+
+[19.09.2023 14:29:59] ========> Val epoch: 
+ final output classifier error: 81.41809290953546, 
+ val_loss4.034099908796091
+[19.09.2023 14:29:59] ==================================== epoch 1 ==============================
+[19.09.2023 14:29:59] ==========> train 
+[19.09.2023 14:30:02] 
+train error: 30.588235294117652, 
+loss: 0.7931430353837855, 
+learning rate 100
+[19.09.2023 14:30:02] ==> val 
+
+[19.09.2023 14:30:10] ========> Val epoch: 
+ final output classifier error: 62.836185819070906, 
+ val_loss8.33085885862558
+[19.09.2023 14:30:10] ==================================== epoch 2 ==============================
+[19.09.2023 14:30:10] ==========> train 
+[19.09.2023 14:30:13] 
+train error: 14.117647058823536, 
+loss: 0.3941198294215343, 
+learning rate 100
+[19.09.2023 14:30:13] ==> val 
+
+[19.09.2023 14:30:21] ========> Val epoch: 
+ final output classifier error: 55.99022004889976, 
+ val_loss3.07111638331329
+[19.09.2023 14:30:21] ==================================== epoch 3 ==============================
+[19.09.2023 14:30:21] ==========> train 
+[19.09.2023 14:30:24] 
+train error: 8.235294117647058, 
+loss: 0.2895790147430756, 
+learning rate 100
+[19.09.2023 14:30:24] ==> val 
+
+[19.09.2023 14:30:32] ========> Val epoch: 
+ final output classifier error: 54.034229828850854, 
+ val_loss5.01389322117481
+[19.09.2023 14:30:32] ==================================== epoch 4 ==============================
+[19.09.2023 14:30:32] ==========> train 
+[19.09.2023 14:30:34] 
+train error: 5.882352941176464, 
+loss: 0.1263888766441275, 
+learning rate 100
+[19.09.2023 14:30:34] ==> val 
+
+[19.09.2023 14:30:43] ========> Val epoch: 
+ final output classifier error: 74.5721271393643, 
+ val_loss7.321015784676326
+[19.09.2023 14:30:43] ==================================== epoch 5 ==============================
+[19.09.2023 14:30:43] ==========> train 
+[19.09.2023 14:30:45] 
+train error: 9.411764705882348, 
+loss: 0.489645224459031, 
+learning rate 100
+[19.09.2023 14:30:45] ==> val 
+
+[19.09.2023 14:30:53] ========> Val epoch: 
+ final output classifier error: 79.46210268948656, 
+ val_loss12.42465694026434
+[19.09.2023 14:30:53] ==================================== epoch 6 ==============================
+[19.09.2023 14:30:53] ==========> train 
+[19.09.2023 14:30:56] 
+train error: 5.882352941176464, 
+loss: 0.23693121522665023, 
+learning rate 100
+[19.09.2023 14:30:56] ==> val 
+
+[19.09.2023 14:31:04] ========> Val epoch: 
+ final output classifier error: 64.7921760391198, 
+ val_loss9.318510607498059
+[19.09.2023 14:31:04] ==================================== epoch 7 ==============================
+[19.09.2023 14:31:04] ==========> train 
+[19.09.2023 14:31:06] 
+train error: 10.588235294117652, 
+loss: 0.27766588334651554, 
+learning rate 100
+[19.09.2023 14:31:06] ==> val 
+
+[19.09.2023 14:31:15] ========> Val epoch: 
+ final output classifier error: 55.99022004889976, 
+ val_loss9.199629897884751
+[19.09.2023 14:31:15] ==================================== epoch 8 ==============================
+[19.09.2023 14:31:15] ==========> train 
+[19.09.2023 14:31:17] 
+train error: 1.17647058823529, 
+loss: 0.1759022964780931, 
+learning rate 100
+[19.09.2023 14:31:17] ==> val 
+
+[19.09.2023 14:31:25] ========> Val epoch: 
+ final output classifier error: 48.16625916870416, 
+ val_loss5.657658574878537
+[19.09.2023 14:31:25] ==================================== epoch 9 ==============================
+[19.09.2023 14:31:25] ==========> train 
+[19.09.2023 14:31:28] 
+train error: 3.529411764705884, 
+loss: 0.07673296735567205, 
+learning rate 100
+[19.09.2023 14:31:28] ==> val 
+
+[19.09.2023 14:31:36] ========> Val epoch: 
+ final output classifier error: 51.100244498777506, 
+ val_loss5.7712561804869535
+[19.09.2023 14:31:36] ==> test 
+
+[19.09.2023 14:31:38] =======> test epoch: 
+final output classifier error: 6.25, 
+test_loss1.3606096096063993
+[19.09.2023 14:31:38] program end time: 2023-09-19-14-31-38
+
+[19.09.2023 14:31:38] ============Finish============

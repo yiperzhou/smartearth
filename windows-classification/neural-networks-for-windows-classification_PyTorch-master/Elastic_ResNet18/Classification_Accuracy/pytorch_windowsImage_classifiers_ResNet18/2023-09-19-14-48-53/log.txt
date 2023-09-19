@@ -1,0 +1,10 @@
+[19.09.2023 14:48:53] program start time: 2023-09-19-14-48-53
+
+[19.09.2023 14:48:53] successfully create model: ResNet18
+[19.09.2023 14:48:53] loaded ImageNet pretrained weights
+[19.09.2023 14:48:53] successfully create model: Elastic_ResNet18
+[19.09.2023 14:48:53] Namespace(batch_size=4, data='windowsImage', dropout_rate=0.2, epochs=1, filename='D:\\projects\\neural-networks-for-windows-classification_PyTorch-master\\neural-networks-for-windows-classification_PyTorch-master\\Elastic_ResNet18\\Classification_Accuracy\\pytorch_windowsImage_classifiers_ResNet18\\2023-09-19-14-48-53\\log.txt', gpu='0', learning_rate=0.01, manual_seed=0, model='Elastic_ResNet18', model_name='pytorch_windowsImage_classifiers_ResNet18', momentum=0.9, num_classes=5, pretrain_learning_rate=0.001, pretrained_weight=1, save_model=False, savedir='D:\\projects\\neural-networks-for-windows-classification_PyTorch-master\\neural-networks-for-windows-classification_PyTorch-master\\Elastic_ResNet18\\Classification_Accuracy\\pytorch_windowsImage_classifiers_ResNet18\\2023-09-19-14-48-53', target_size=(224, 224, 3), weight_decay=0.0001)
+[19.09.2023 14:48:55] ==> Full training    
+
+[19.09.2023 14:48:55] ==================================== epoch 0 ==============================
+[19.09.2023 14:48:55] ==========> train 
